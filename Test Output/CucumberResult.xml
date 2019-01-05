@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="208.567747">
+<testcase classname="browser launching" name="launching the browser" time="101.491909">
+<system-out><![CDATA[Given I open the "chrome" browser and launch "https://phlvdqapport08.nextgen.com/ppmain" site.passed
+Then on "PP_Main_Login_Page" page, I verify the page title is displayed as "Login - Patient Portal".passed
+Then on "Main_LoginPage" page, I verify "WelcomeToPP_Label" is displayed as "Welcome to Patient Portal, Your Medical Home on the Web".passed
+Then on "Main_LoginPage" page, I verify "WelcomeMsg_Description_Label" is displayed as "With Patient Portal, you can connect with your doctor through a convenient, safe and secure environment.".passed
+Then on "Main_LoginPage" page, I verify "LoginToPatientPortal_Label" is displayed as "Log into Patient Portal".passed
+Then on "Main_LoginPage" page, I verify "Username_Label" is displayed as "Username".passed
+Then on "Main_LoginPage" page, I verify "Password_Label" is displayed as "Password".passed
+Then on "Main_LoginPage" page, I verify "ForgotUsername_Link" is enabled....passed
+Then on "Main_LoginPage" page, I verify "ForgotPassword_Link" is enabled....passed
+Then on "Main_LoginPage" page, I verify "IHaveMyPasswordResetToken_Link" is enabled.passed
+Then on "Main_LoginPage" page, I verify "CreateAccount_Link" is enabled.....passed
+Then on "Main_LoginPage" page, I verify "OnlinePatientHelp_Link" is enabled.passed
+Then on "Main_LoginPage" page, I verify "Iam_not_receiving_email_notification_link" is enabled.passed
+Then on "Main_LoginPage" page, I verify "SiteMap_Link" is enabled...........passed
+Then on "Main_LoginPage" page, I verify "Privacy_Policy_Footer_Link" is enabled.passed
+Then on "Main_LoginPage" page, I verify "MobileSite_Link" is enabled........passed
+Then on "Main_LoginPage" page, I verify "Privacy_Policy_Link" is enabled....passed
+Then on "Main_LoginPage" page, I verify "I_am_new_here_Label" is displayed as "I am new here".passed
+Then on "Main_LoginPage" page, I verify "Footer_Msg_Label" is displayed as "Your security is important. We use technology to encrypt, safeguard, and secure your personal information. Please view our Privacy Policy for more information".passed
+Then on "Main_LoginPage" page, I verify "CopyRight_Label" is displayed as "�1996-2018 QSI Management, LLC".passed
+When on "Main_LoginPage" page, I set value in "Username_EditBox" to "Skenrollment@32".passed
+When on "Main_LoginPage" page, I set value in "Password_EditBox" to "Skenrollment@32".passed
+And on "Main_LoginPage" page, I click on "Login_Btn" "button"...............passed
+Then on "Main_DashboardPage" page, I verify the page title is displayed as "Dashboard - Patient Portal".passed
+When on "Main_DashboardPage" page, I verify whether the "DashboardNotificationGrid_List" grid contains "Personal Health Record".passed
+When on "Main_DashboardPage" page, I click on "Mail_Tab" and move to "Inbox_Tab1" element.passed
+Then on "Main_Inbox_Page" page, I verify that the "Inbox_Table" table contains "Personal Health Record/Personal Health Record".passed
+When on "Main_DashboardPage" page, I click on "Logout_Link" "Link"..........passed
+Then on "PP_Main_LOgin_Page" page, I verify the page title is displayed as "Login - Patient Portal".passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="browser launching" name="Requesting the Manual PHR." time="65.994679">
+<system-out><![CDATA[When I open the "chrome" browser and launch "https://phlvdqapport08.nextgen.com/ppmain" site.passed
+Then on "PP_Main_Login_Page" page, I verify the page title is displayed as "Login - Patient Portal".passed
+When on "Main_LoginPage" page, I set value in "Username_EditBox" to "Skenrollment@32".passed
+And on "Main_LoginPage" page, I set value in "Password_EditBox" to "Skenrollment@32".passed
+And on "Main_LoginPage" page, I click on "Login_Btn" "button"...............passed
+Then on "Main_DashboardPage" page, I verify the page title is displayed as "Dashboard - Patient Portal".passed
+When on "Main_DashboardPage" page, I click on "Mychart_Tab" and move to "RequestHealthRecord_Tab" element.passed
+Then on "Main_RequestHealthRecord_Page" page, I verify the page title is displayed as "Request Health Record - Patient Portal".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Request_Personal_Health_Record_Label" is displayed as "Request Personal Health Record".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Select_Practice_And_Patient_Label" is displayed as "1) Select Practice and Patient".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Please_select_medical_practice_Label" is displayed as "Please select the medical practice and the person on which behalf the request will be sent to the practice.".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Practice_Label" is displayed as "*Practice:".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Select_Chart_Date_Label" is displayed as "2) Select Chart Date".passed
+And on "Main_RequestHealthRecord_Page" page, I verify "Please_Select_chart_Description_Label" is displayed as "Please select the medical practice and the person on which behalf the request will be sent to the practice.".passed
+When on "Main_RequestHealthRecord_Page" page, I click on "Submit_Btn" "button".passed
+And on "Main_DashboardPage" page, I click on "Logout_Link" "Link"...........passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="browser launching" name="Mobile site Login Logout" time="41.081159">
+<system-out><![CDATA[When I open the "firefox" browser and launch "https://phlvdqapport08.nextgen.com/ppmobile" site.passed
+Then on "Mobile_LoginLocators" page, I verify "username_EditBox" is displayed.passed
+And on "Mobile_LoginLocators" page, I verify "password_EditBox" is displayed.passed
+And on "Mobile_LoginLocators" page, I verify "login_Btn" is displayed.......passed
+And on "Mobile_LoginLocators" page, I verify "CreateAccount_Link" is displayed.passed
+When on "Mobile_LoginLocators" page, I set value in "username_EditBox" to "Skenrollment@32".passed
+And on "Mobile_LoginLocators" page, I set value in "password_EditBox" to "Skenrollment@32".passed
+And on "Mobile_LoginLocators" page, I click on "login_Btn" "button".........passed
+Then on "Mobile_DashboardLocators" page, I verify the page title is displayed as "Dashboard Patient Portal".passed
+When on "Mobile_DashboardLocators" page, I click on "Menu_btn" "Button".....passed
+And on "Mobile_DashboardLocators" page, I click on "LogOut_link" "Link".....passed
+Then on "Mobile_LoginLocators" page, I verify the page title is displayed as "Login Patient Portal".passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

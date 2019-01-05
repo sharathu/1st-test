@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15344" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:05Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="9760" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:00Z">
+      <class name="Practice.SeleniumGrid">
+        <test-method status="PASS" signature="browserOpen(java.lang.String, java.lang.String)[pri:0, instance:Practice.SeleniumGrid@543c6f6d]" name="browserOpen" duration-ms="9738" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.145.12.134:5555/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+      </class> <!-- Practice.SeleniumGrid -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="13338" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:03Z">
+      <class name="Practice.SeleniumGrid">
+        <test-method status="PASS" signature="browserOpen(java.lang.String, java.lang.String)[pri:0, instance:Practice.SeleniumGrid@8e24743]" name="browserOpen" duration-ms="13320" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.145.12.134:5555/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+      </class> <!-- Practice.SeleniumGrid -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="15344" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:05Z">
+      <class name="Practice.SeleniumGrid">
+        <test-method status="PASS" signature="browserOpen(java.lang.String, java.lang.String)[pri:0, instance:Practice.SeleniumGrid@a38d7a3]" name="browserOpen" duration-ms="15325" started-at="2018-12-07T04:27:50Z" finished-at="2018-12-07T04:28:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.145.12.146:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+      </class> <!-- Practice.SeleniumGrid -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
