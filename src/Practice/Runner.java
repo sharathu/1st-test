@@ -1,6 +1,10 @@
 package Practice;
 
+import java.io.File;
+import java.util.Properties;
+
 import org.junit.runner.RunWith;
+import org.testng.annotations.AfterClass;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -14,6 +18,15 @@ import cucumber.api.junit.Cucumber;
 		monochrome=true,
 		tags={"@Mobile,@SmokeTest"})
 public class Runner {
-
+	@AfterClass
+	public static void reportSetup()
+	{
+		//Reporter.loadXMLConfig(new File("/src/test/java/com/cumberpr2/step/Extent-Config.xml"));
+		Properties property= System.getProperties();
+		property.list(System.out);
+	}
 	
 }
+
+
+

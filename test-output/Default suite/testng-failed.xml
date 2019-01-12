@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.SeleniumGrid">
+      <class name="test.TokenEnr_Main">
         <methods>
-          <include name="browserOpen"/>
+          <include name="Logout"/>
+          <include name="tokenEnr"/>
+          <include name="chooseDriver"/>
         </methods>
-      </class> <!-- Practice.SeleniumGrid -->
+      </class> <!-- test.TokenEnr_Main -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
