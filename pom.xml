@@ -279,8 +279,11 @@
 <version>2.20</version>
 <configuration>
 <testSourceDirectory>./src/Practice</testSourceDirectory>
+  <suiteXmlFiles>
+                <suiteXmlFile>**/*.xml</suiteXmlFile>
+  </suiteXmlFiles> 
 <includes>
-<include>**/*Runner.java</include>
+<include>**/*.java</include>
 </includes>
 </configuration>
 </plugin>
