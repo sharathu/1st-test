@@ -280,7 +280,7 @@
 <configuration>
 <testSourceDirectory>./src/Practice</testSourceDirectory>
   <suiteXmlFiles>
-                <suiteXmlFile>**/*.xml</suiteXmlFile>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
   </suiteXmlFiles> 
 <includes>
 <include>**/*.java</include>
