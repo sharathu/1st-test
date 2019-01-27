@@ -287,7 +287,11 @@
 <configuration>
 <testSourceDirectory>${project.build.testSourceDirectory}</testSourceDirectory>
   <suiteXmlFiles>
+
                 <suiteXmlFile>tokenenrollment.xml</suiteXmlFile>
+
+                <suiteXmlFile>testng.xml</suiteXmlFile>
+
   </suiteXmlFiles> 
 <includes>
 <include>**.java</include>

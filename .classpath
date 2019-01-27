@@ -6,6 +6,19 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<!--<classpathentry kind="src" output="target/classes" path="src/">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<!--<classpathentry kind="src" output="target/test-classes" path="src/">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>-->
+	
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="E:/Selenium/Framework1/PP_Automation/library/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Framework1/PP_Automation/library/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Framework1/PP_Automation/library/commons-logging-1.2.jar"/>
